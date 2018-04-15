@@ -2,7 +2,7 @@ import React from 'react';
 
 const Calendar = () => {
   return (
-    <li><a href="#">Calendar</a></li>
+    <li><a href="#">News</a></li>
   );
 }
 

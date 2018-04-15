@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HeadNav from './components/head_nav';
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+import createRootReducer from './RootReducer';
+import App from './App';
 
-const App = () => {
-  return (
-        <HeadNav />
-  );
-}
 
-ReactDOM.render(<App />, document.querySelector('.container'));
+let store;
+store = createStore(createRootReducer());
+ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));
