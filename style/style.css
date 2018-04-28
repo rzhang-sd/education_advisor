@@ -1,5 +1,11 @@
 <style>
 
+.container {
+    max-width: 960px;
+    height: 200px;
+    padding: 10px;
+}
+
 /* navbar */
 .navbar-default {
     background-color: #F8F8F8;

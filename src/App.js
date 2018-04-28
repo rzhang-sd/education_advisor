@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
-import HeadNav from './components/head_nav';
+import Main from './components/main';
 import SignOnForm from './components/signon';
 
 export function App({onLocation}) {
@@ -15,7 +15,7 @@ export function App({onLocation}) {
         <BrowserRouter ref={onRouter}>
            <div>
               <Switch>
-                  <Route exact path='/' component={HeadNav} />
+                  <Route exact path='/' component={Main} />
                   <Route exact path='/studentsignon' component={SignOnForm} />
                   <Route exact path='/teachersignon' component={SignOnForm} />
               </Switch>
