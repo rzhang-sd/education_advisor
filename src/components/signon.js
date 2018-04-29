@@ -5,9 +5,8 @@ import HeadNav from './head_nav';
 class SignOnForm extends Component {
 
   handleSubmit = () => {
-    var link = "mailto:raymond.z.zhang@gmail.com"+
-             "?cc=info@ahhanetwork.com"+
-             "&subject=" + escape("This is subject")+
+    var link = "mailto:info@ahhanetwork.com"+
+             "?subject=" + escape("Someone is interested in the opportunity")+
              "&body=" + escape("This is body");
     window.location.href = link;
   }
