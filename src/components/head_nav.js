@@ -1,9 +1,7 @@
 import React from 'react';
-import DashBoard from './dashboard';
-import Profile from './profile';
+import Home from './home';
 import Colleges from './my_colleges';
 import TestScores from './test_score';
-import Calendar from './calendar';
 
 const HeadNav = () => {
   return (
@@ -15,9 +13,9 @@ const HeadNav = () => {
           </div>
           <h3>
           <ul className="nav navbar-nav">
-             <DashBoard />
-             <Profile />
-             <Calendar />
+             <Home />
+             <li><a href="/profile">About Us</a></li>
+             <li><a href="/news">News</a></li>
           </ul>
 
           <ul className="nav navbar-nav navbar-right">
