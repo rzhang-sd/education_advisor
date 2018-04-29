@@ -6,6 +6,7 @@ import Main from './components/main';
 import SignOnForm from './components/signon';
 import News from './components/news';
 import Profile from './components/profile'
+import Contact from './components/contact'
 
 export function App({onLocation}) {
 
@@ -22,6 +23,7 @@ export function App({onLocation}) {
                   <Route exact path='/teachersignon' component={SignOnForm} />
                   <Route exact path='/news' component={News} />
                   <Route exact path='/profile' component={Profile} />
+                  <Route exact path='/contact' component={Contact} />
               </Switch>
            </div>
          </BrowserRouter>

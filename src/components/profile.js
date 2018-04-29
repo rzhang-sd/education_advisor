@@ -7,12 +7,10 @@ const Profile = () => {
     <div>
     <HeadNav/>
 
-    <Message>
-        <Message.Header><strong>Our Mission:</strong></Message.Header>
-        <p><font color="green" size="3">To make learning more accesible to everyone. By connecting
-        students to teachers, we will encourage sharing knowledge and promote a love for learing.
-         </font></p>
-    </Message>
+        <h2>Our Mission:</h2>
+        <Message compact positive size='big'>To make learning more accesible to everyone. By connecting
+        students to teachers, we will encourage sharing knowledge and promote a love for learning
+        </Message>
     </div>
   );
 }

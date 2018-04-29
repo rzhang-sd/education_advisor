@@ -18,7 +18,8 @@ const Landing = () => {
       <div className="columns">
           <font color="blue" size="4"><i> Ahha! network, the right place to learn new stuff </i></font>
           <br/><br/>
-          <font color="blue" size="3"> Contact Us at <a href="mailto:#">info@ahhanetworks.com</a></font>
+          <br/><br/>
+          <font color="blue" size="2"><p>&copy; 2018 ahhanetwork.com</p></font>
       </div>
     </div>
   );
