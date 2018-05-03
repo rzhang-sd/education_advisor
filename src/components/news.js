@@ -20,7 +20,7 @@ const News = () => {
      <br/>
      <Message.Header>Benefits:</Message.Header>
      <Message.List>
-      <Message.Item>Competitive pay rate between $13 -$23 per hour</Message.Item>
+      <Message.Item>Competitive pay rate between $15 -$25 per hour</Message.Item>
       <Message.Item>Flexible scheduling</Message.Item>
     </Message.List>
     <br/>
