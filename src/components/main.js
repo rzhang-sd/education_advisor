@@ -7,16 +7,25 @@ const Main = () => {
   return (
     <div>
         <HeadNav />
-        <table cellpadding="10" height='50%'>
-          <tr>
-            <td width='40%'>
-              <img src='../image/ahha.png' width='70%'/>
-            </td>
-            <td width='60%'>
-              <Landing/>
-            </td>
-          </tr>
-        </table>
+        <br/>
+        <br/>
+        <div className="ui grid">
+          <div className="twelve wide column">
+            <table cellpadding="10" height='50%'>
+              <tr>
+                <td>
+                  <img src='../image/ahha.png' width='70%'/>
+                </td>
+                <td width>
+                  <Landing/>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div className="two wide column">
+            <img className="logo" src="../image/logo.JPG"/>
+          </div>
+        </div>
     </div>
   );
 }

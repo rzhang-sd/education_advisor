@@ -16,7 +16,7 @@ const Landing = () => {
       </div>
       <div className="columns"></div>
       <div className="columns">
-          <font color="blue" size="4"><i> Ahha! network, the right place to learn new stuff </i></font>
+          <font color="blue" size="3"><i>The right place to learn new stuff! </i></font>
           <br/><br/>
           <br/><br/>
           <font color="blue" size="2"><p>&copy; 2018 ahhanetwork.com</p></font>
