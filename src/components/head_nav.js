@@ -8,6 +8,7 @@ const HeadNav = () => {
     <div>
     <nav className="navbar navbar-default">
        <div className="container-fluid">
+
           <div className="navbar-header">
              <h2><a className="navbar-brand">Ahha! Network</a></h2>
           </div>
