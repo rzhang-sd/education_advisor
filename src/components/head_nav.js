@@ -10,7 +10,7 @@ const HeadNav = () => {
        <div className="container-fluid">
 
           <div className="navbar-header">
-             <h2><a className="navbar-brand">Ahha! Network</a></h2>
+             <img className="logo" src="../image/logo.JPG"/>
           </div>
           <h3>
           <ul className="nav navbar-nav">

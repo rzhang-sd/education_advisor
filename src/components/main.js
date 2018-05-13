@@ -9,23 +9,16 @@ const Main = () => {
         <HeadNav />
         <br/>
         <br/>
-        <div className="ui grid">
-          <div className="twelve wide column">
-            <table cellpadding="10" height='50%'>
-              <tr>
-                <td>
-                  <img src='../image/ahha.png' width='70%'/>
-                </td>
-                <td width>
-                  <Landing/>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="two wide column">
-            <img className="logo" src="../image/logo.JPG"/>
-          </div>
-        </div>
+        <table cellpadding="10" height='50%'>
+          <tr>
+            <td>
+              <img src='../image/ahha.png' height='40%' width='40%'/>
+            </td>
+            <td>
+              <Landing/>
+            </td>
+          </tr>
+        </table>
     </div>
   );
 }
