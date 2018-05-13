@@ -10,8 +10,7 @@ const News = () => {
     <Message icon compact positive size='big'>
     <Icon name='inbox'/>
     <Message.Content>[4/22/2018] Ahha! Network is actively recruiting qualified English
-     teachers to teach foreign students speaking skills and to help in expanding skills
-     and to help in expending their vocabulary via online media.
+     teachers to teach foreign students speaking skills and to help in expanding their vocabulary via online media.
      </Message.Content>
     </Message>
     <Message>
@@ -21,7 +20,7 @@ const News = () => {
      <br/>
      <Message.Header>Benefits:</Message.Header>
      <Message.List>
-      <Message.Item>Competitive pay rate between $13 -$23 per hour</Message.Item>
+      <Message.Item>Competitive pay rate between $15 -$25 per hour</Message.Item>
       <Message.Item>Flexible scheduling</Message.Item>
     </Message.List>
     <br/>
