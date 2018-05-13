@@ -11,10 +11,10 @@ const Main = () => {
         <br/>
         <table cellpadding="10" height='50%'>
           <tr>
-            <td>
-              <img src='../image/ahha.png' height='40%' width='40%'/>
+            <td width='40%'>
+              <img src='../image/ahha.png' width='70%'/>
             </td>
-            <td>
+            <td width='60%'>
               <Landing/>
             </td>
           </tr>
